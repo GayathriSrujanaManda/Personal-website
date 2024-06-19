@@ -19,6 +19,7 @@ This website is built using HTML and CSS to create a simple, clean, and professi
 - Home
 - About Me
 - Portfolio
+- Projects
 - Contact
 
 ## Features
