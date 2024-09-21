@@ -3,74 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Gayathri Srujana Manda</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project-title {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .project-date {
+            font-style: italic;
+            color: #555;
+        }
+        ul {
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+        
+    </nav>
     <header>
         <h1>Projects</h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <div class="container">
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Sales Analysis Dashboard | Power BI, Data Analysis</strong> (Jun. 2024)
-                    <ul>
-                        <li><strong>Objective:</strong> To create a comprehensive sales analysis dashboard to visualize and interpret sales data, providing actionable insights for strategic decision-making.</li>
-                        <li><strong>Languages:</strong> PowerBI</li>
-                        <li><strong>Result:</strong> Successfully developed an interactive dashboard that provided valuable insights into sales performance, identified key trends, and facilitated data-driven decision-making processes.</li>
-                    </ul>
-                </li>
-                <li><strong>Inventory Management System | Power Apps, Power Automate</strong> (Jun. 2024)
-                    <ul>
-                        <li><strong>Objective:</strong> To create an inventory management system to efficiently track stock levels, manage inventory, and automate restocking processes.</li>
-                        <li><strong>Languages:</strong> Power Apps, Power Automate</li>
-                        <li><strong>Result:</strong> Implemented a comprehensive inventory management system that streamlined stock tracking, improved inventory accuracy, and automated restocking, significantly enhancing operational efficiency.</li>
-                    </ul>
-                </li>
-                <li><strong>E-commerce Conversion Funnel Analysis | Python, Data Analysis</strong> (May. 2024 )
-                    <ul>
-                        <li><strong>Objective:</strong> To analyze and optimize the conversion funnel of an e-commerce website to improve the conversion rate from product page views to completed purchases.</li>
-                        <li><strong>Languages:</strong> Python</li>
-                        <li><strong>Libraries:</strong> Pandas, NumPy, Matplotlib.</li>
-                        <li><strong>Result:</strong> Conducted a comprehensive funnel analysis, identifying significant drop-off points at various stages. Interpreted changes that led to measurable improvements in conversion rates, enhancing overall e-commerce performance.</li>
-                    </ul>
-                </li>
-                <li><strong>Supply Chain Backorder Analysis | Python, Machine Learning</strong> (Apr. 2024 – May. 2024)
-                    <ul>
-                        <li><strong>Objective:</strong> To identify and manage backorders in supply chain management to prevent disruptions and ensure smooth operations.</li>
-                        <li><strong>Languages:</strong> Python</li>
-                        <li><strong>Libraries:</strong> Pandas, NumPy, Scikit-learn, SciPy, Matplotlib.</li>
-                        <li><strong>Result:</strong> Developed a predictive model to analyze inventory levels, identifying significant differences between backordered and non-backordered items. Achieved high accuracy in predictions, aiding in effective supply chain management.</li>
-                    </ul>
-                </li>
-                <li><strong>Detection of Malicious Web Attacks on Websites using ML | ML, Python</strong> (Mar. 2023 – May. 2023)
-                    <ul>
-                        <li><strong>Objective:</strong> To detect malicious web attacks on websites using machine learning algorithms by analyzing features extracted solely from URLs.</li>
-                        <li><strong>Languages:</strong> Python</li>
-                        <li><strong>Libraries:</strong> NumPy, Scikit-learn, Pandas, SciPy, Matplotlib.</li>
-                        <li><strong>Result:</strong> The URL-based detection method effectively identified malicious web attacks, achieving high accuracy without needing active scans. This approach demonstrated impressive results in enhancing network security.</li>
-                    </ul>
-                </li>
-                <li><strong>Employee Performance Analysis | Excel, Data Analysis</strong> (Feb. 2023)
-                    <ul>
-                        <li><strong>Objective:</strong> To evaluate and optimize employee performance metrics to identify top performers and areas for improvement.</li>
-                        <li><strong>Languages:</strong> Excel</li>
-                        <li><strong>Result:</strong> Developed a comprehensive performance analysis dashboard, enabling data-driven decision-making and performance improvement strategies, which enhanced overall organizational performance.</li>
-                    </ul>
-                </li>
-                <li><strong>Image Denoising | Python, Machine Learning</strong> (Nov. 2022 – Dec. 2022)
-                    <ul>
-                        <li><strong>Objective:</strong> To remove noise from an image to restore the true image, improving the effectiveness of subsequent image processing tasks.</li>
-                        <li><strong>Languages:</strong> Python</li>
-                        <li><strong>Libraries:</strong>OpenCV, NumPy, Scipy, Matplotlib.</li>
-                        <li><strong>Libraries:</strong> Developed and analyzed various noise reduction filters for image denoising, achieving high PSNR values for different noise types</li>
-                        </ul>
-                </li>
+    <div class="project">
+        <div class="project-title">Sales Analysis Dashboard | Power BI, Data Analysis</div>
+        <div class="project-date">Jun. 2024</div>
+        <ul>
+            <li>Created a Power BI dashboard that analyzed sales metrics, identifying growth opportunities, leading to a 20% increase in actionable insights.</li>
+            <li>Identified 3 key growth opportunities and reduced underperforming areas by 10% through data-driven insights.</li>
+            <li>Facilitated data-driven decisions by senior management through clear visual representation of sales performance metrics.</li>
+        </ul>
+    </div>
+    <div class="project">
+        <div class="project-title">Employee Performance Analysis | Tableau, Data Analysis</div>
+        <div class="project-date">Apr. 2024 – May. 2024</div>
+        <ul>
+            <li>Analyzed employee performance metrics using Tableau, evaluating data from 100+ employees to identify top performers and areas for improvement.</li>
+            <li>Designed a comprehensive Tableau dashboard that consolidated data from five different sources; provided leadership with real-time insights which informed strategy adjustments, ultimately enhancing operational efficiency by 25%.</li>
+        </ul>
+    </div>
+    <div class="project">
+        <div class="project-title">E-commerce Conversion Funnel Analysis | Python, Data Analysis</div>
+        <div class="project-date">Feb. 2024</div>
+        <ul>
+            <li>Analyzed and optimized the conversion funnel of an e-commerce website using Python, identifying significant drop-off points across various stages.</li>
+            <li>Utilized Pandas, NumPy, and Matplotlib to conduct a comprehensive funnel analysis, improving data-driven decision-making.</li>
+            <li>Implemented strategic changes based on insights, leading to a 15% increase in conversion rates and enhancing overall e-commerce performance.</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <div class="project-title">Supply Chain Backorder Analysis | Python, Machine Learning</div>
+        <div class="project-date">Dec. 2023 – Jan. 2024</div>
+        <ul>
+            <li>Constructed a highly accurate predictive model using Python to analyze 200,000+ inventory data points, identifying key factors contributing to backorders.</li>
+            <li>Achieved a prediction accuracy of 92%, enabling timely management of supply chain disruptions and improving operational efficiency.</li>
+        </ul>
+    </div>
+
+    <div class="project"></div>
+        <div class="project-title">Inventory Management System | Power Apps, Power Automate</div>
+        <div class="project-date">Sep. 2023 – Oct. 2023</div>
+        <ul>
+            <li>Developed an inventory management system using Power Apps and Power Automate, improving efficiency in tracking stock levels.</li>
+            <li>Automated restocking processes, reducing manual effort and improving inventory accuracy by 25%.</li>
+            <li>Enhanced operational efficiency by streamlining stock tracking, leading to a 30% reduction in stock discrepancies.</li>
+        </ul>
+    </div>
+    <div class="project"></div>
+    <div class="project-title">Detection of Malicious Web Attacks on Websites | Python, Machine Learning</div>
+    <div class="project-date">Mar. 2023 – May. 2023</div>
+    <ul>
+        <li>Developed a machine learning model using Python to detect malicious web attacks by analyzing URL-based features, eliminating the need for active scans.</li>
+    <li>Utilized NumPy, Scikit-learn, Pandas, and Matplotlib to create an efficient and scalable detection system with high accuracy.</li>
+    <li>Enhanced network security by identifying malicious attacks with a 95% detection rate, significantly improving threat prevention.</li>    
+</ul>
+</div>
+<div class="project"></div>
+    <div class="project-title">Image Denoising | Python, Machine Learning</div>
+    <div class="project-date">Nov. 2022 – Dec. 2022</div>
+    <ul>
+       <li>Implemented image denoising algorithms using Python, leveraging libraries such as OpenCV, NumPy, SciPy, and Matplotlib.</li>
+       <li>Developed and evaluated noise reduction filters, improving image quality and enhancing the effectiveness of subsequent processing tasks.</li>
+       <li>Achieved high PSNR values, restoring image clarity across multiple noise types and optimizing overall performance in image analysis.</li>
+</ul>
+</div>
+<div class="project"></div>
+    <div class="project-title">Car Detection | Python, Machine Learning</div>
+    <div class="project-date">Oct. 2021 – Dec. 2021</div>
+    <ul>
+      <li>Developed a car detection system using Python, employing HOG features and a Quadratic SVM classifier with 85.5% accuracy.</li>
+      <li>Utilized OpenCV, NumPy, Scikit-learn, and Matplotlib to implement an efficient detection pipeline for vehicle identification.</li>
+      <li>Reduced false positives by incorporating a heatmap-based approach, enhancing the overall performance of the detection system.</li>
+</ul>
+</div>
+    
+</body>
+</html>
